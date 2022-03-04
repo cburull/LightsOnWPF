@@ -22,34 +22,34 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button Tag="1" Click="Click_Button" Grid.Column="0" Grid.Row="0" Margin="1" />
-        <Button Tag="2" Click="Click_Button" Grid.Column="1" Grid.Row="0" Margin="1" />
-        <Button Tag="3" Click="Click_Button" Grid.Column="2" Grid.Row="0" Margin="1" />
-        <Button Tag="4" Click="Click_Button" Grid.Column="3" Grid.Row="0" Margin="1" />
-        <Button Tag="5" Click="Click_Button" Grid.Column="4" Grid.Row="0" Margin="1" />
+        <Button Tag="1" Click="Click_Button" Grid.Column="0" Grid.Row="0" Margin="1" Background="DarkGray"/>
+        <Button Tag="2" Click="Click_Button" Grid.Column="1" Grid.Row="0" Margin="1" Background="DarkGray"/>
+        <Button Tag="3" Click="Click_Button" Grid.Column="2" Grid.Row="0" Margin="1" Background="DarkGray"/>
+        <Button Tag="4" Click="Click_Button" Grid.Column="3" Grid.Row="0" Margin="1" Background="DarkGray"/>
+        <Button Tag="5" Click="Click_Button" Grid.Column="4" Grid.Row="0" Margin="1" Background="DarkGray"/>
 
-        <Button Tag="6" Click="Click_Button" Grid.Column="0" Grid.Row="1" Margin="1" />
-        <Button Tag="7" Click="Click_Button" Grid.Column="1" Grid.Row="1" Margin="1" />
-        <Button Tag="8" Click="Click_Button" Grid.Column="2" Grid.Row="1" Margin="1" />
-        <Button Tag="9" Click="Click_Button" Grid.Column="3" Grid.Row="1" Margin="1" />
-        <Button Tag="10" Click="Click_Button" Grid.Column="4" Grid.Row="1" Margin="1" />
+        <Button Tag="6" Click="Click_Button" Grid.Column="0" Grid.Row="1" Margin="1" Background="DarkGray"/>
+        <Button Tag="7" Click="Click_Button" Grid.Column="1" Grid.Row="1" Margin="1" Background="DarkGray"/>
+        <Button Tag="8" Click="Click_Button" Grid.Column="2" Grid.Row="1" Margin="1" Background="DarkGray"/>
+        <Button Tag="9" Click="Click_Button" Grid.Column="3" Grid.Row="1" Margin="1" Background="DarkGray"/>
+        <Button Tag="10" Click="Click_Button" Grid.Column="4" Grid.Row="1" Margin="1" Background="DarkGray"/>
 
-        <Button Tag="11" Click="Click_Button" Grid.Column="0" Grid.Row="2" Margin="1" />
-        <Button Tag="12" Click="Click_Button" Grid.Column="1" Grid.Row="2" Margin="1" />
-        <Button Tag="13" Click="Click_Button" Grid.Column="2" Grid.Row="2" Margin="1" />
-        <Button Tag="14" Click="Click_Button" Grid.Column="3" Grid.Row="2" Margin="1" />
-        <Button Tag="15" Click="Click_Button" Grid.Column="4" Grid.Row="2" Margin="1" />
+        <Button Tag="11" Click="Click_Button" Grid.Column="0" Grid.Row="2" Margin="1" Background="DarkGray"/>
+        <Button Tag="12" Click="Click_Button" Grid.Column="1" Grid.Row="2" Margin="1" Background="DarkGray"/>
+        <Button Tag="13" Click="Click_Button" Grid.Column="2" Grid.Row="2" Margin="1" Background="DarkGray"/>
+        <Button Tag="14" Click="Click_Button" Grid.Column="3" Grid.Row="2" Margin="1" Background="DarkGray"/>
+        <Button Tag="15" Click="Click_Button" Grid.Column="4" Grid.Row="2" Margin="1" Background="DarkGray"/>
 
-        <Button Tag="16" Click="Click_Button" Grid.Column="0" Grid.Row="3" Margin="1" />
-        <Button Tag="17" Click="Click_Button" Grid.Column="1" Grid.Row="3" Margin="1" />
-        <Button Tag="18" Click="Click_Button" Grid.Column="2" Grid.Row="3" Margin="1" />
-        <Button Tag="19" Click="Click_Button" Grid.Column="3" Grid.Row="3" Margin="1" />
-        <Button Tag="20" Click="Click_Button" Grid.Column="4" Grid.Row="3" Margin="1" />
+        <Button Tag="16" Click="Click_Button" Grid.Column="0" Grid.Row="3" Margin="1" Background="DarkGray"/>
+        <Button Tag="17" Click="Click_Button" Grid.Column="1" Grid.Row="3" Margin="1" Background="DarkGray"/>
+        <Button Tag="18" Click="Click_Button" Grid.Column="2" Grid.Row="3" Margin="1" Background="DarkGray"/>
+        <Button Tag="19" Click="Click_Button" Grid.Column="3" Grid.Row="3" Margin="1" Background="DarkGray"/>
+        <Button Tag="20" Click="Click_Button" Grid.Column="4" Grid.Row="3" Margin="1" Background="DarkGray"/>
 
-        <Button Tag="21" Click="Click_Button" Grid.Column="0" Grid.Row="4" Margin="1" />
-        <Button Tag="22" Click="Click_Button" Grid.Column="1" Grid.Row="4" Margin="1" />
-        <Button Tag="23" Click="Click_Button" Grid.Column="2" Grid.Row="4" Margin="1" />
-        <Button Tag="24" Click="Click_Button" Grid.Column="3" Grid.Row="4" Margin="1" />
-        <Button Tag="25" Click="Click_Button" Grid.Column="4" Grid.Row="4" Margin="1" />
+        <Button Tag="21" Click="Click_Button" Grid.Column="0" Grid.Row="4" Margin="1" Background="DarkGray"/>
+        <Button Tag="22" Click="Click_Button" Grid.Column="1" Grid.Row="4" Margin="1" Background="DarkGray"/>
+        <Button Tag="23" Click="Click_Button" Grid.Column="2" Grid.Row="4" Margin="1" Background="DarkGray"/>
+        <Button Tag="24" Click="Click_Button" Grid.Column="3" Grid.Row="4" Margin="1" Background="DarkGray"/>
+        <Button Tag="25" Click="Click_Button" Grid.Column="4" Grid.Row="4" Margin="1" Background="DarkGray"/>
     </Grid>
 </Window>

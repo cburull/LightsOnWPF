@@ -22,14 +22,13 @@ namespace LightsOn
     {
         private Button[] Board;
         private Game game;
-        private SolidColorBrush White = new SolidColorBrush(Colors.White);
-        private SolidColorBrush Black = new SolidColorBrush(Colors.Black);
+        private SolidColorBrush LightYellow = new SolidColorBrush(Colors.LightYellow);
+        private SolidColorBrush DarkGray = new SolidColorBrush(Colors.DarkGray);
         public MainWindow()
         {
             InitializeComponent();
             Set_Board();
             game = new Game();
-            for (int i = 0; i < 25; i++) Board[i].Content = $"{String.Join(", ",game.Board[i].AdjacentTiles)}";
         }
 
         private void Set_Board()
@@ -54,8 +53,8 @@ namespace LightsOn
         {
             var button = Board[id - 1];
             var IslightOn = game.IsLightOn(id);
-            if (IslightOn) button.Background = White;
-            else button.Background = Black;
+            if (IslightOn) button.Background = LightYellow;
+            else button.Background = DarkGray;
         }
     }
 }

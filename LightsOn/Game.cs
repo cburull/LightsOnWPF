@@ -23,8 +23,9 @@ namespace LightsOn
         {
             List<int> adjacentTiles = new();
 
-            int row = tile_Id / 5 + 1;
+            int row = (int)Math.Ceiling(tile_Id / 5.0);
             int column = tile_Id % 5;
+            if (column == 0) column = 5;
 
             if (row > 1) adjacentTiles.Add(tile_Id - 5);
             if (row < 5) adjacentTiles.Add(tile_Id + 5);
